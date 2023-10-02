@@ -110,6 +110,10 @@ body {
     background-position: center;
     }
 
+	#menu a {
+        font-size: 20px;
+    }
+
     #imagens {
         margin-top: 60px;
   }
