@@ -151,9 +151,14 @@ body {
 }
 
 @media screen and (max-width: 700px) {
+
+        #menu a {
+        font-size: 20px;
+    }
+    
     #girassol {
-        width: 100px;
-        height: 100px;
+        width: 75px;
+        height: 75px;
         position: relative;
         animation-name: girassol;
         animation-duration: 7s;
@@ -162,8 +167,8 @@ body {
     }
 
     #girassol-2 {
-        width: 100px;
-        height: 100px;
+        width: 75px;
+        height: 75px;
         position: relative;
         animation-name: girassol-2;
         animation-duration: 7s;
@@ -172,8 +177,8 @@ body {
     }
 
     #girassol-3 {
-        width: 100px;
-        height: 100px;
+        width: 75px;
+        height: 75px;
         position: relative;
         animation-name: girassol;
         animation-duration: 7s;
@@ -181,8 +186,8 @@ body {
     }
 
     #girassol-4 {
-        width: 100px;
-        height: 100px;
+        width: 75px;
+        height: 75px;
         position: relative;
         animation-name: girassol-2;
         animation-duration: 7s;
