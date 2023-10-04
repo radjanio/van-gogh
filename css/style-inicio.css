@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-}
+}z
 
 #menu {
     justify-content: center;
@@ -161,11 +161,10 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-
-        #menu a {
+    #menu a {
         font-size: 20px;
     }
-    
+
     #girassol {
         width: 75px;
         height: 75px;
@@ -204,3 +203,46 @@ body {
         animation-iteration-count: infinite;
     }
   }
+
+#text-field {
+    margin: 0 170px 200px 170px;
+    
+}
+
+#text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    color: #ffffff;
+    text-shadow: #5d9b9b 0 0 10px;
+    animation-name: text;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes text {
+     0% {
+        top: 0px;
+    }
+    10% {
+        bottom: -12px;
+
+    }
+    30% {
+        top: 12px;
+    }
+
+    50% {
+        top: -12px;
+    }
+    70% {
+        top: 12px;
+    
+    }
+    90% {
+        top: -12px;
+    
+    }
+}
